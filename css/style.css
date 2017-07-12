@@ -1,16 +1,82 @@
 body{
 	background-color: antiquewhite;
 	font-size: 120%;
+	padding: 50px;
 }
 
 .wrapper{
 	background-color: #fff;
-	width: 1000%;
+	width: 100%;
 	margin: 0 auto;
 	border-radius: 20px;
 	moz-border-radius: 20px;
 	webkit-border-radius: 20px;
 	khtml-border-radius: 20px;
+}
+
+content{
+	display: block;
+	overflow: hidden;
+	padding: 50px;
+}
+
+main{
+	float: left;
+	width: 70%;
+}
+
+a{
+	color: #333;
+}
+
+a:hover{
+	color: #0062ff;
+}
+
+article{
+	margin-bottom: 60px;
+}
+
+article h2{
+	margin-bottom: 0px;
+	padding: 0px;
+	font-size: 170%;
+	color: #333;
+}
+
+article p{
+	font-size: 100%;
+	color: #333;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+aside{
+	float: right;
+	padding: 10px;
+}
+
+aside a{
+	padding: 10px;
+	display: block;
+}
+
+aside ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+aside .section{
+	background-color: gray;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+aside .section h3{
+	background-color: azure;
+	padding: 20px;
+	margin-top:0;
 }
 
 header .brand{
@@ -28,5 +94,13 @@ header .brand span{
 .hero{
 	height: 400px;
 	padding: 40px;
-	background: #E84C3D url('../img/computer.png') no-repeat
+	background: #E84C3D url('../img/computer.png') no-repeat center
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+	font-size: 90%;
+	clear: both;
+	display: block;
 }
